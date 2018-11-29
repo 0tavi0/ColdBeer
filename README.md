@@ -26,7 +26,9 @@ um comando para o arduino liberar a quantidade exata de cerveja.
 
 
 
-# Autor
+# Autores
 - Otávio Augusto - otavio.le@gmail.com </br>
+- Fernando Moraes - fermope.m@gmail.com </br>
+
  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Otávio%20Augusto-blue.svg)](https://www.linkedin.com/in/otavio-augusto-776861116/)
