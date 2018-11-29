@@ -10,7 +10,7 @@ um comando para o arduino liberar a quantidade exata de cerveja.
 
 # ScreenShots
 <p align="center">
-  <img src="screenshots/tela1.png" width="200" title="hover text">
+  <img src="screenshots/tela1.png" width="200" alt="accessibility text">
   <img src="screenshots/tela2.png" width="200" alt="accessibility text">
   <img src="screenshots/tela3.png" width="200" alt="accessibility text">
    <img src="screenshots/tela4.png" width="200" alt="accessibility text">
