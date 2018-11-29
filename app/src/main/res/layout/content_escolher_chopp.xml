@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAD2"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.coldbeer.coldbeer.EscolherChopp"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp"
+    tools:showIn="@layout/activity_escolher_chopp">
+
+    <!--<Button-->
+    <!--android:id="@+id/btnAumCopoP"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="72dp"-->
+    <!--android:layout_marginTop="12dp"-->
+    <!--android:text="+"-->
+    <!--android:textSize="30sp"-->
+    <!--app:layout_constraintLeft_toRightOf="@+id/btnDimCopoP"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView"-->
+    <!--tools:layout_constraintLeft_creator="1"-->
+    <!--tools:layout_constraintTop_creator="1" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btnDimCopoP"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="124dp"-->
+    <!--android:layout_marginRight="292dp"-->
+    <!--android:text="-"-->
+    <!--android:textSize="30sp"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintRight_toRightOf="parent"-->
+    <!--tools:layout_constraintBottom_creator="1"-->
+    <!--tools:layout_constraintRight_creator="1" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btnDimCopoG"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="-"-->
+    <!--android:textSize="30sp"-->
+
+    <!--tools:layout_constraintTop_creator="1"-->
+    <!--android:layout_marginStart="72dp"-->
+    <!--android:layout_marginTop="18dp"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView4"-->
+    <!--tools:layout_constraintLeft_creator="1"-->
+    <!--app:layout_constraintLeft_toLeftOf="parent" />-->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Copo TAM G (500ML)"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="8dp"
+        android:text="Copo TAM P (300ML)"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <!--<Button-->
+    <!--android:id="@+id/btnAumCopoG"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="+"-->
+    <!--android:textSize="30sp"-->
+
+    <!--tools:layout_constraintTop_creator="1"-->
+    <!--android:layout_marginStart="74dp"-->
+    <!--android:layout_marginTop="18dp"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView4"-->
+    <!--tools:layout_constraintLeft_creator="1"-->
+    <!--app:layout_constraintLeft_toRightOf="@+id/btnDimCopoG" />-->
+
+
+    <ImageView
+        android:id="@+id/choppGrande"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/chopp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+
+        android:id="@+id/choppPequeno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/chopp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/txtPreco"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="130dp"-->
+    <!--android:text="R$0,00"-->
+    <!--android:textSize="34sp"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintLeft_toLeftOf="@+id/txtQtdG"-->
+    <!--app:layout_constraintRight_toLeftOf="@+id/txtQtdP"-->
+    <!--tools:layout_constraintBottom_creator="1"-->
+    <!--tools:layout_constraintLeft_creator="1"-->
+    <!--tools:layout_constraintRight_creator="1" />-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/txtQtdG"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="0"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textSize="35sp"-->
+    <!--app:layout_constraintRight_toLeftOf="@+id/btnAumCopoG"-->
+    <!--tools:layout_constraintTop_creator="1"-->
+    <!--tools:layout_constraintRight_creator="1"-->
+    <!--android:layout_marginEnd="23dp"-->
+    <!--android:layout_marginTop="18dp"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView4" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/txtQtdP"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="0"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textSize="35sp"-->
+    <!--app:layout_constraintRight_toLeftOf="@+id/btnAumCopoP"-->
+    <!--tools:layout_constraintTop_creator="1"-->
+    <!--tools:layout_constraintRight_creator="1"-->
+    <!--android:layout_marginEnd="22dp"-->
+    <!--android:layout_marginTop="18dp"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/imageView" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btnProx"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:text="Próximo"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btnCan"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:text="Cancelar"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+
+</android.support.constraint.ConstraintLayout>
